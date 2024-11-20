@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9619bf31f7.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Custom Styles */
+        .navdiv {
+            height: 100vh;
+            background-color: palevioletred;
+            border-radius: 10px;
+        }
+        .fontsz {
+             font-size: 7pt;
+             margin-top: 20px;
+            
+     
+         }
+         .positioning{
+            position: relative;
+            left: 25%;
+            top: 5%;
+           
+         }
+        .right-top {
+            width: 100%;
+            height: 80px;
+            background-color: purple;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+       
+        .box{
+           
+            border: 1px solid black;
+            border-radius: 5px;
+            
+           
+        }
+        .instructorbox{
+           
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gray;
+            
+        }
+        .mg{
+            display: none;
+        }
+       .col box{
+        align-items: center;
+
+       }
+       .imgmarketplace{
+            width: 80px;
+            height: 80px;
+       }
+        @media only screen and (max-width: 600px) {
+            body{
+                font-size: 6pt;
+            }
+
+            .imgmarketplace{
+            width: 50px;
+            height: 50px;
+       }
+            .col-2{
+                display: none;
+            }
+            .navdiv{
+                width: 40%;
+                height: 400px;
+            }
+            .mg{
+                display: block;
+            }
+          
+            .instructorbox{
+                width: 150%;
+            }
+          
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 navdiv ml-3" style="border: 5px solid;">
+                <img class="d-block mx-auto mt-4" width="50px" height="50px" src="c:\Users\WALTON\Downloads\student portal\student portal\Pictures.jpeg"alt="">
+               
+                <div class="positioning">
+                    <div class="fontsz ">
+                        <img width="15px" height="15px" src="c:\Users\WALTON\Downloads\student portal\student portal\home icon img.png" alt="">
+                        <span>home</span>
+                    </div>
+                   
+                    <div class="fontsz">
+                        <img width="15px" height="15px" src="" alt="info">
+                        <span>CourseInfo</span>
+                    </div>
+
+                    <div class="fontsz">
+                        <img width="15px" height="15px" src="c:\Users\WALTON\Downloads\student portal\student portal\teaacher icon img.png"alt="">
+                        <span>Trainer info</span>
+                    </div>
+                    
+                    <div class="fontsz">
+                        <img width="15px" height="15px" src="c:\Users\WALTON\Downloads\student portal\student portal\class info icon logo.png" alt="info">
+                        <span>Class info</span>
+                    </div>
+
+                    <div class="fontsz">
+                        <img width="15px" height="15px" src="c:\Users\WALTON\Downloads\student portal\student portal\group info icon img.png" alt="info">
+                        <span>Group info</span>
+                    </div>
+
+                    <div class="fontsz">
+                        <img width="15px" height="15px" src="c:\Users\WALTON\Downloads\student portal\student portal\performance icon img.png" alt="info">
+                        <span>Performance</span>
+                    </div>
+
+                    <div class="fontsz">
+                        <img width="15px" height="15px" src="c:\Users\WALTON\Downloads\student portal\student portal\notice icon img.png" alt="info">
+                        <span>Notice</span>
+                    </div>
+                    
+
+                    <div class="fontsz" style="margin-top: 40vh;">
+                        <img width="15px" height="15px" src="c:\Users\WALTON\Downloads\student portal\student portal\logout icon img.png" alt="">
+                        <span>logout</span>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="col" style="border: 5px solid;">
+                <div class="right-top">
+                    <div class="ml-3">
+                        <div class="m                            <span class="d-block" style="font-size: 5pt;">5 november 2024</span>
+                            <span class="d-block">welcome back jhone</span>
+                
+                        </div>
+                       
+                    </div>
+                    <div class="mr-3">
+                        <img width="80px" height="80px" src="c:\Users\WALTON\Downloads\student portal\student portal\student home page logo.png"alt="">
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-9 mr-2">
+                            CourseInfo
+                        </div>
+   
+                        <div class="col-2 ml-2">
+                            instructor
+                        </div>
+   
+                    </div>
+   
+                    <div class="">
+                        <div class="row" style="float: left ;width: 80%; border: 2px solid;margin-top: 10px;">
+                            
+
+
+
+
+                                <div class="col box">
+
+                                  
+
+                                    <div style="height: 100px;" class="container d-flex justify-content-around align-items-center ">
+
+                                        <div>
+                                            <div class=" d-flex row">
+                                                <img  width="30px" height="30px" src="c:\Users\WALTON\Downloads\student portal\student portal\html.png" alt="">
+                                                <img  width="30px" height="30px" src="c:\Users\WALTON\Downloads\student portal\student portal\css.png" alt="">
+
+                                            </div>
+
+                                            <div class=" d-flex row mt-1">
+                                                <img  width="30px" height="30px" src="c:\Users\WALTON\Downloads\student portal\student portal\js.png" alt="">
+                                                <img  width="30px" height="30px" src="c:\Users\WALTON\Downloads\student portal\student portal\b4.jpg" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex align-items-center">
+                                            <img width="30px" height="30px" src="c:\Users\WALTON\Downloads\student portal\student portal\php.png" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="text-center">
+                                        <span class="d-block">Roadmap</span>
+                                        <span class="d-block">WDD</span>
+                                    </div>
+                                 
+                                   
+                                </div>
+
+
+
+
+
+
+
+                            
+                            
+                            <div class="col ml-1 box" style=" text-align: center; align-items: center">
+                                <div>
+                                    <img width="80px" height="80px" src="c:\Users\WALTON\Downloads\student portal\student portal\time period.png" alt="">
+
+                                </div>
+
+                                <span style="font-weight: bold;">day off fri-sat</span><br>
+                                <span style="font-weight:bold;">  4 hours /132 days</span><br>
+                                <span>time period</span>
+                               
+
+                            </div>
+                            <div class="col ml-1 box" style=" text-align: center; align-items: center">
+                                
+                                    <div class="d-flex justify-content-around align-items-center" style="height: 100px;">
+                                        <div>
+                                            <img class="imgmarketplace"   src="c:\Users\WALTON\Downloads\student portal\student portal\freelance.jpg" alt="">
+                                        </div>
+                                        <div>
+                                            <img class="imgmarketplace"  src="c:\Users\WALTON\Downloads\student portal\student portal\local outsource.jpeg" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="text-center mt-3">
+                                        <span class="d-block">Marketplace</span>
+                                    </div>
+                                
+                            </div>
+                          
+                               
+                              
+                           
+                        </div>
+                      
+                     
+   
+                        <div class=" ml-2  " style="width: 20%; float: right; ">
+                            <div class="instructorbox">
+                          <img style="border-radius: 15px;" class="d-block mx-auto" width="40px"height="40px"src="c:\Users\WALTON\Downloads\student portal\student portal\IMG_20210213_163936_6~3.jpg"alt="">
+                          <i class="fa-solid fa-user"></i>
+
+
+
+                           <span>MD:Kaymuzaman</span>
+                           <br>
+
+
+
+
+                          <i class="fa-solid fa-envelope"></i>
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">mrpartho470@gmail.com</a>
+                        <br>
+                        <br>
+                        <hr style="width: 100%; font-size: 2px; background-color: black;">
+                        <img style="border-radius: 15px;" class="d-block mx-auto" width="40px" height="40px" src="c:\Users\WALTON\Downloads\student portal\student portal\rakib sir.jpg" alt="">
+                        <div class="container mt-2">
+                            <i class="fa-solid fa-user"></i>
+                        Rakibuzzaman Rakib <br>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">rakib.dh516@gmail.com</a>
+                        <span>Upozila ICT Oficer</span>
+                        </div>
+                    
+                            </div>
+                           
+                           <div class="instructorbox">
+                        </div>
+                        <br> 
+                        <span>Upozila ICT Oficer</span>
+                        <div class="instructorbox">
+                         <img style="border-radius: 15px;" class="d-block mx-auto" width="40px" height="40px" src="c:\Users\WALTON\Downloads\student portal\student portal\upazila ict officer mi.JPG" alt="">
+                         <i class="fa-solid fa-user"></i>
+                         Mizanur Rahman <br>
+                         <i class="fa-solid fa-envelope"></i>
+                         <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">mizanur.rahman@doict.gov.</a>
+                         <br>
+                         
+                         </div>
+                           <span>notice</span>
+                           <div class="instructorbox mt-2" style="overflow: auto; height: 300px;">
+                            <img style="border-radius: 15px;" class="d-block mx-auto" width="40px" height="40px" src="c:\Users\WALTON\Downloads\student portal\student portal\IMG_20210213_163936_6~3.jpg" alt="">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda reprehenderit laborum ex recusandae doloribus, necessitatibus rem eos dolores quam sunt. Eos perferendis cupiditate ab expedita maiores pariatur, architecto dicta sed cumque, quos nobis laudantium totam ullam corrupti sit vero eveniet mollitia. Voluptate nesciunt, nobis labore corrupti modi sit laborum? Ullam deleniti labore quos et doloribus quia illo dolores eligendi voluptas? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nulla adipisci rerum sint aperiam tenetur nemo, harum natus quisquam exercitationem doloremque earum nisi unde magni voluptas necessitatibus autem laudantium ipsum?
+                            
+                            
+
+                           </div>
+
+                           </div>
+                           <span>Enrolled class</span>
+                        
+                            <div class="row" style="float: left ;width: 80%; border: 2px solid;">
+                                <div class="col box" style="text-align: center;">
+                                    <div style="align-items: center;" >
+                                        <span> class time:2.00pm-6.00pm</span> <br>
+                                        <span> vanue-Ranisankakil Mohila Degree College</span> <br>
+                                        <span>Google class code:iyuru3s</span><br><br>
+
+
+                                    </div>
+                                    class info <br>
+                                   WDD
+                                </div>
+                                <div class="col ml-1 box" style="text-align: center;">
+                                    <div>
+                                        <span>Facebook Brl grp Link-
+                                            <a href=" https://www.facebook.com/share/17sQEz5zGP/"> click here</a> </span><br>
+                                        
+                                        <span> Facebook grp link-</span><br><br>
+                                    </div>
+                                  group info <br>
+                                  WDD
+                                </div>
+                                <div class="col ml-1 box" style="text-align: center; font-weight: bold;" >
+                                    <div>
+                                        <img style="width: 100px; height: 100px;" src="c:\Users\WALTON\Downloads\student portal\student portal\performance icon img.png" alt="">
+                                    </div>
+
+                                   <span> Poor/Good/Excellent</span><br>
+                                    <span> Performence</span>
+                                </div>
+                               
+                            </div>
+
+                            <div>
+                                <span> facebook live</span><br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Unde nemo nisi maxime et ullam,<br> earum non ab blanditiis rerum sit explicabo aliquam assumenda esse  <br>voluptate sapiente ipsam similique deserunt nam.
+                            </div>
+
+                         </div>
+
+                     </div>
+
+                 </div>
+
+             </div>
+            </div>
+        </body>
+        </html>
